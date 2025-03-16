@@ -10,7 +10,6 @@ public class EquilateralTriangle extends Triangle {
         
     @Override
     public void scale(double factor){
-        super.scale(factor);
         side *= factor;
     }
 

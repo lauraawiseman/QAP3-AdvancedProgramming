@@ -10,7 +10,7 @@ public class Demo4 {
         };
 
         System.out.println("Before Scaling:");
-        for (Shape shape : shapes) {
+        for (Scalable shape : shapes) {
             System.out.println(shape);
         }
 
