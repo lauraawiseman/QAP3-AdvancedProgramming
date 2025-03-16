@@ -29,4 +29,8 @@ public class Student extends Person {
         this.myGPA = myGPA;
     }
 
+    public String toString(){
+        return super.toString() + ", ID: " + myIdNum + ", GPA: " + myGPA;
+    }
+
 };
